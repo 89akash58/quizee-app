@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-family-jomhuria:"Jomhuria";
+    --font-family-poppins:"Poppins";
+    --grey-color:#474444;
+    --green-color:#60B84B;
+}

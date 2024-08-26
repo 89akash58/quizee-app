@@ -1,0 +1,63 @@
+.sidebar_container {
+  height: 100vh;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.sidebar_container_heading {
+  display: flex;
+  justify-content: center;
+  color: var(--grey-color);
+  font-family: var(--font-family-jomhuria);
+  font-size: 3rem;
+  margin-top: 5%;
+  letter-spacing: 2px;
+}
+
+.sidebar_container_buttons {
+  cursor: pointer;
+  color: var(--grey-color);
+  font-family: var(--font-family-poppins);
+  height: 23vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar_container_buttons > div {
+  text-align: center;
+}
+
+.sidebar_container_logout_div > div:first-child {
+  background-color: black;
+  height: 0.2vh;
+  width: 8vw;
+  margin: 0 auto;
+}
+
+.sidebar_container_logout_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 10vh;
+}
+
+.sidebar_container_logout_div > div:last-child {
+  cursor: pointer;
+  color: var(--grey-color);
+  font-family: var(--font-family-poppins);
+  text-align: center;
+  font-weight: bolder;
+}
+
+.bg {
+  height: 7vh;
+  background-color: white;
+  border-radius: 0.6rem;
+  box-shadow: 0px 0px 14px 0px #0000001f;
+  padding-top: 5%;
+}

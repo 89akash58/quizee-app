@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    padding: 0 5%;
+}
+.QAAnalysis_container {
+    height: 100vh;
+    background: #EDEDED;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    overflow: auto;
+}
+.display_question {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.header>p {
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: var(--font-family-poppins);
+    color: #5076FF;
+}
+
+.header>div>p {
+    font-family: var(--font-family-poppins);
+    color: #FF5D01;
+    font-weight: 600;
+}
+
+.display_question>div {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.display_question>p {
+    font-size: larger;
+    padding-left: 4.5%;
+    font-family: var(--font-family-poppins);
+    font-weight: 600;
+}
+
+.display_question>div>div {
+    text-align: center;
+    background-color: white;
+    height: 14vh;
+    width: 21vw;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.display_question>div>div>p:first-child,
+.display_question>div>div>p:last-child {
+    color: var(--grey-color);
+    font-family: var(--font-family-poppins);
+    font-weight: 600;
+}

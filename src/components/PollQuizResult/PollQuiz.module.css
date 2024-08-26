@@ -1,0 +1,36 @@
+.result_container {
+  height: 100vh;
+  width: 100%;
+  background-color: #041325;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result_container div {
+  height: 90%;
+  width: 90%;
+  background-color: white;
+  border-radius: 0.5rem;
+  font-family: var(--font-family-poppins);
+  font-weight: 700;
+  color: var(--grey-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 48px;
+}
+@media (max-width: 650px) {
+  .result_container div {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    font-size: 0.8rem;
+  }
+  .result_container h1 {
+    text-align: center;
+  }
+}

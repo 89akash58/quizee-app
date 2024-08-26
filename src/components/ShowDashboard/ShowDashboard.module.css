@@ -1,0 +1,113 @@
+.showDashboard_container {
+  height: 100vh;
+  width: 90vw;
+  background: #ededed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.showDashboard_container > div:first-child {
+  display: flex;
+  gap: 4rem;
+  padding: 0 4%;
+}
+
+.showDashboard_container_quiz_created,
+.showDashboard_container_questions_created,
+.showDashboard_container_total_impressions {
+  height: 18vh;
+  width: 22vw;
+  background-color: white;
+  border-radius: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.3rem;
+  align-items: center;
+  font-family: var(--font-family-poppins);
+  font-weight: 700;
+}
+
+.showDashboard_container_quiz_created {
+  color: #ff5d01;
+}
+
+.showDashboard_container_questions_created {
+  color: var(--green-color);
+}
+
+.showDashboard_container_total_impressions {
+  color: #5076ff;
+}
+
+.showDashboard_container_quiz_created > p > span:first-child,
+.showDashboard_container_questions_created > p > span:first-child,
+.showDashboard_container_total_impressions > p > span:first-child {
+  font-size: 2rem;
+  padding-right: 8%;
+}
+
+.quizzes_displayed {
+  height: 35vh;
+  width: 78vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  overflow: auto;
+  margin-left: 45px;
+}
+
+.showDashboard_container > div:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0 auto;
+}
+
+.square_quiz {
+  background-color: white;
+  height: 15vh;
+  width: 18vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 0.6rem;
+  font-family: var(--font-family-poppins);
+  font-weight: 600;
+}
+
+.square_quiz > div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.trending_quizs {
+  color: var(--grey-color);
+  font-family: var(--font-family-poppins);
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding-left: 40px;
+  letter-spacing: 1px;
+}
+
+.quiz_name {
+  width: 7vw;
+  color: var(--grey-color);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 1.1rem;
+}
+
+.impressions {
+  color: #ff5d01;
+  position: relative;
+  top: 3px;
+  font-size: 1rem;
+}
+
+.created_date {
+  color: var(--green-color);
+  font-size: 0.9rem;
+  text-align: center;
+}
