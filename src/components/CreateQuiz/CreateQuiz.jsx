@@ -9,7 +9,7 @@ import copy from "copy-to-clipboard";
 import { useNavigate, useLocation } from "react-router-dom";
 import Question from "../../model/Question";
 import Option from "../../model/Option";
-
+import config from "../CreateQuiz/config";
 const CreateQuiz = ({
   quizId,
   quizType,
@@ -512,7 +512,7 @@ const CreateQuiz = ({
       createQuiz();
     }
   };
-  const quizUrl = `https://89akash58.github.io/playQuiz/${localStorage.getItem(
+  const quizUrl = `${config.BASE_URL}/playQuiz/${localStorage.getItem(
     "quizId"
   )}`;
 
