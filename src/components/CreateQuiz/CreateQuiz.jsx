@@ -512,10 +512,10 @@ const CreateQuiz = ({
       createQuiz();
     }
   };
-  const quizUrl = `http://localhost:3000/playQuiz/${localStorage.getItem(
+  const quizUrl = `https://89akash58.github.io/playQuiz/${localStorage.getItem(
     "quizId"
   )}`;
-
+  // https://89akash58.github.io/home
   const shareButton = () => {
     copy(quizUrl);
     toast.success("Link copied to Clipboard", {
