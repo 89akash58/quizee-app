@@ -512,9 +512,7 @@ const CreateQuiz = ({
       createQuiz();
     }
   };
-  const quizUrl = `${config.BASE_URL}/playQuiz/${localStorage.getItem(
-    "quizId"
-  )}`;
+  const quizUrl = `${window.location.origin}/quizee-app/playQuiz/${quizId}`;
 
   // https://89akash58.github.io/home
   const shareButton = () => {

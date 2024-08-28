@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import Login from "./pages/Login/Login";
 import Home from "./pages/Home/Home";
@@ -9,7 +9,7 @@ function App() {
   const [logoutMessage, setLogoutMessage] = useState("");
 
   return (
-    <BrowserRouter basename="/quizee-app">
+    <Router basename="/quizee-app">
       <Routes>
         <Route
           path="/"
@@ -27,7 +27,7 @@ function App() {
         <Route path="/playQuiz/:quizId" element={<PlayQuiz />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
