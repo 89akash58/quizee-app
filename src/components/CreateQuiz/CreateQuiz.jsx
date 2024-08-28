@@ -512,7 +512,7 @@ const CreateQuiz = ({
       createQuiz();
     }
   };
-  const quizUrl = `${config.BASE_URL}/playQuiz/${localStorage.getItem(
+  const quizUrl = `https://89akash58.github.io/playQuiz/${localStorage.getItem(
     "quizId"
   )}`;
 
