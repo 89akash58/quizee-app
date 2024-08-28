@@ -60,7 +60,7 @@ const Sidebar = ({
 
   const handleLogout = () => {
     localStorage.clear();
-    navigate("/quizee-app");
+    navigate("/");
     setLogoutMessage("You are Logged Out Successfully");
   };
   return (

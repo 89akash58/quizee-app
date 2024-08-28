@@ -336,7 +336,7 @@ const CreateQuiz = ({
             );
             localStorage.clear();
             setTimeout(() => {
-              navigate("/quizee-app");
+              navigate("/");
             }, 2000);
             return;
           }
@@ -397,7 +397,7 @@ const CreateQuiz = ({
           );
           localStorage.clear();
           setTimeout(() => {
-            navigate("/quizee-app");
+            navigate("/");
           }, 2000);
           return;
         }
@@ -450,7 +450,7 @@ const CreateQuiz = ({
         });
         localStorage.clear();
         setTimeout(() => {
-          navigate("/quizee-app");
+          navigate("/");
         }, 2000);
         return;
       }

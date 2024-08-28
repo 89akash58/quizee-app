@@ -112,7 +112,7 @@ const Home = ({ setLogoutMessage }) => {
           );
           localStorage.clear();
           setTimeout(() => {
-            navigate("//quizee-app");
+            navigate("/");
           }, 2000);
           return;
         }
@@ -136,7 +136,7 @@ const Home = ({ setLogoutMessage }) => {
         position: "top-center",
         autoClose: 2000,
       });
-      navigate("//quizee-app");
+      navigate("/");
     }
   }, [quizOwnerId, navigate]);
 
