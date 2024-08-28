@@ -512,7 +512,7 @@ const CreateQuiz = ({
       createQuiz();
     }
   };
-  const quizUrl = `https://89akash58.github.io/playQuiz/${localStorage.getItem(
+  const quizUrl = `https://quizee-app-gug-7.vercel.app/playQuiz/${localStorage.getItem(
     "quizId"
   )}`;
 
