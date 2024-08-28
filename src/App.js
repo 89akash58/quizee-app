@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename="https://89akash58.github.io">
+      <BrowserRouter>
         <Routes>
           <Route
             path="/quizee-app"
