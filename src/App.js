@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route
-            path="/quizee-app"
+            path="/"
             element={
               <Login
                 logoutMessage={logoutMessage}
