@@ -1,5 +1,4 @@
 {
-  "homepage": "https://89akash58.github.io/quizee-app/",
   "name": "quiz-app-frontend",
   "version": "0.1.0",
   "private": true,
@@ -19,8 +18,7 @@
   },
   "scripts": {
   "start": "react-scripts start",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+ 
   "build": "env-cmd -f .env.production react-scripts build",
   "test": "react-scripts test",
   "eject": "react-scripts eject"
