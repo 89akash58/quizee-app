@@ -61,7 +61,7 @@ const ShowAnalytics = ({
   };
 
   const handleShare = (quiz) => {
-    copy(`http://localhost:3000/playQuiz/${quiz._id}`);
+    copy(`https://backend-quizapp-jrqf.onrender.com/playQuiz/${quiz._id}`);
     toast.success("Link copied to Clipboard", {
       position: "top-right",
       autoClose: 1000,
